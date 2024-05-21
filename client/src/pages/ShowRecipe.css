@@ -1,0 +1,91 @@
+.navbarrCont{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.3s;
+    z-index: 1;
+    background-color: white;
+}
+
+.recipeContainer{
+    height: auto;
+    display: flex;
+}
+
+.sideBanner{
+    margin-top: 10px;
+    width: 25%;
+    height: 90vh;
+    background: url("../Resources//recipeBG.jpg");
+    /* position: fixed; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.showRecipe{
+    margin-top: 100px;
+}
+
+.Rrecipe_details{
+    height: auto;
+
+    width: 1000px;
+    display: flex;
+    align-items: center;
+
+}
+.Rcardz {
+    height: auto;
+    width: 800px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 20px;
+    display: flex;
+    border: 0.5px solid rgb(201, 201, 201);
+
+
+}
+
+.Rcardz:hover {
+    transform: scale(1.02);
+    border: 0.5px solid rgb(201, 201, 201);
+}
+
+.RimageSec {
+    height: 300px;
+    width: 40%;
+}
+
+.RimageSec img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 1px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.Rdetails {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.Rdetails h2 {
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.Rdetails h5 {
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+
+}

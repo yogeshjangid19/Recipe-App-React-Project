@@ -1,0 +1,30 @@
+.contactContainer{
+    height: 90vh;
+    width: 100%;
+    background: url("../Resources/ContactBG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contactContainer h1{
+    color: black;
+    font-size: 60px;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.contactContainer span{
+    color: purple;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.contactButton{
+    background-color: rgb(176, 8, 176);
+}
+
+.contactForm{
+    margin-left: 200px;
+    margin-top: 20px;
+}

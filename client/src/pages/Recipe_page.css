@@ -1,0 +1,64 @@
+.recipe_details{
+    height: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:wght@700;800&family=Young+Serif&display=swap');
+
+.recipeh1{
+    padding-top: 30px;
+    color: black;
+    font-family: 'Young Serif', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+.recipe_details h2{
+    font-family: 'Lora', serif;
+    color: rgb(38, 38, 38);
+}
+hr.solid {
+    border-top: 3px solid #393a3b;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.recipeImg{
+    height: 500px;
+    width: 500px;
+    transition: transform 0.5s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
+
+
+}
+.recipeImg:hover{
+    transform: scale(1.02);
+
+}
+
+.recipe_details li{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+
+.recipePageBanner{
+    height: 150vh;
+    width: 100%;
+    position: absolute;
+    top: 230vh;
+
+}
+.recipePageBanner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.IngDir{
+    font-family: 'Lora', serif;
+    padding-top: 10px;
+
+}

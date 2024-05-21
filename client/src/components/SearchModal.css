@@ -1,0 +1,108 @@
+.modal-dialog {
+    width: 150% !important;
+    height: 80% !important;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    overflow: auto;
+    width: 100% !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex !important; /* Important to override Bootstrap styles */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Center the modal vertically */
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 10000px !important;
+  
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed for your specific modal content */
+  /* NavBar.css or your custom CSS file */
+  
+  .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+
+
+
+  .cover {
+    display: flex;
+    height: 10%;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.patti {
+    height: 100%;
+    width: 100%;
+  }
+
+  
+.dab {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    height: 200px;
+    width: 200px;
+  }
+  
+  .mar {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .yourpic {
+    height: 70%;
+    width: 100%;
+  }
+  .titlename {
+    height: 30%;
+    width: 100%;
+  }
+  .start1 {
+    margin-top: 5px;
+    background-color: rgba(12, 177, 241, 0.671) !important;
+    color: rgb(17, 1, 1) !important;
+    border: none;
+    font-size: 14px !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 40px;
+  }

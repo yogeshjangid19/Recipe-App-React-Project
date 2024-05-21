@@ -1,0 +1,75 @@
+
+.category_container {
+    padding-top: 10px;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.category_card {
+    height: 220px;
+    width: 210px;
+    justify-content: space-around;
+    transition: transform 0.4s ease;
+    /* border: 2px solid red; */
+}
+
+.category_card:hover {
+    transform: scale(1.04);
+}
+
+.card_img {
+    height: 80%;
+    width: 100%;
+}
+.card_img img {
+    height: 100%;
+    width: 90%;
+    object-fit: fill;
+    border-radius: 9999px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card_title {
+    margin: 0;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.card_title h3 {
+    margin: 0;
+    font-size: 24px;
+    padding-top: 17px;
+    font-weight:normal;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.mask {
+    background-color: rgba(251, 251, 251, 0.15);
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.RecipeCardsCont{
+    margin-left: 150px;
+    height:auto;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+
+
+}

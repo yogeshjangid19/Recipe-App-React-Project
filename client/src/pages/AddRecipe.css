@@ -1,0 +1,41 @@
+.addrecipeCntnr{
+    height: 90vh;
+    width: 100%;
+    background-image: url('../Resources/AddrecipeBG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+.recipeInput{
+    height: 80vh;
+    width:30vw;
+    margin-left: 60rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&display=swap');
+.addrecipeCntnr h1{
+    font-family: 'Libre Caslon Text', serif;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+#id,#recipeName,#desc,#category,#ingredients,#directions{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+
+form button{
+        background-color: rgb(0, 150, 2);
+        width: 300px;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        cursor: pointer;
+   
+
+} 

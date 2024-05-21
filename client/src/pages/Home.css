@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.mainDiv {
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.text-overlay {
+    height: 100px;
+    width: 1000px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 30%;
+    left: 18%;
+}
+
+.nav_button {
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+.nav_button:hover {
+    background-color: #db0606e8;
+
+}
+
+.nav_button2 {
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+.nav_button2:hover {
+    background-color: #db0606e8;
+}
+
+
+.recipes span {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-left: 540px;
+
+}
+
+.navbarr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.3s;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: blur(4px);
+}
+.navbarr a{
+    color: black;
+}
+
+
+.recipes {
+    height: auto;
+    margin-left: 40px;
+}
+.bnner{
+    height: 350px;
+    width: 100%;
+}
+.bnner img{
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    height: 665px;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}

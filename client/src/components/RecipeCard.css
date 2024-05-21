@@ -1,0 +1,47 @@
+
+.cardz {
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.cardz:hover {
+    transform: scale(1.02);
+    border: 0.5px solid rgb(201, 201, 201);
+}
+
+.imageSec {
+    height: 80%;
+    width: 100%;
+}
+
+.imageSec img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 1px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.details {
+    height: 20%;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.details h2 {
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.details h5 {
+    margin-left: 10px;
+}

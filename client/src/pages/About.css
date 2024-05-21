@@ -1,0 +1,61 @@
+
+
+.abtcntnr {
+    height: auto;
+    width: 60vw;
+    position: relative;
+    left: 300px;
+   
+}
+
+.heroImg {
+    position: inherit;
+    top: 20px;
+    left: 35%;
+    height: 150px;
+    width: 360px;
+}
+
+.heroImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.hdng {
+    position: inherit;
+    top: 20px;
+    left: 34%;
+    margin-top: 20px;
+    font-size: 40px;
+    color: black;
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+}
+.whovr{
+    position: inherit;
+    color: black;
+    top: 20px;  
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.whovrP{
+    position: inherit;
+    text-align: justify;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.hdngR{
+    position: inherit;
+    color: black;
+    font-size: 27px;
+    top: 20px;  
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+}
+.recpeeP{
+    position: inherit;
+    text-align: justify;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
